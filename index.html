@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci - Photographe</title>
-	<meta name="description" content="Photographe professionnelle, je vous propose mes services pour capturer vos plus beaux moments. Je me déplace en Île-de-France pour réaliser vos photos.">
+	<meta name="description" content="Photographe professionnelle à Bordeaux, je vous propose mes services pour capturer vos plus beaux moments. Je me déplace en Gironde 33000 pour réaliser vos photos.">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,6 +58,25 @@
 	</div>
 </div>
 <div id="about">
+	<div itemscope itemtype="https://schema.org/ProfessionalService">
+    <meta itemprop="name" content="Nina Carducci - Photographe">
+    <meta itemprop="description" content="Photographe professionnelle à Bordeaux, je capture vos plus beaux moments.">
+    <meta itemprop="telephone" content="+33556677889">
+    <meta itemprop="email" content="contact@ninacarducci.com">
+    <meta itemprop="url" content="https://www.ninacarducci.com">
+    <meta itemprop="areaServed" content="Bordeaux, Gironde, France">
+    <meta itemprop="priceRange" content="€€">
+    <meta itemprop="image" content="https://www.ninacarducci.com/assets/images/nina.webp">
+		<meta itemprop="openingHours" content="Mo-Fr 10:00-19:00">
+
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+			<meta itemprop="streetAddress" content="68 avenue Alsace-Lorraine">
+			<meta itemprop="addressLocality" content="Bordeaux">
+			<meta itemprop="postalCode" content="33200">
+			<meta itemprop="addressRegion" content="Nouvelle-Aquitaine">
+			<meta itemprop="addressCountry" content="FR">
+    </div>
+	</div>
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" alt="Nina Carducci, photographe professionnelle">
 	</div>
@@ -95,34 +114,34 @@
 <div id="services">
 	<h2 class="title">Mes services</h2>
 	<div class="container">
-		<div class="service">
+		<div class="service" itemscope itemtype="https://schema.org/Service">
 			<div class="service__description">
-				<h3>Shooting photo</h3>
-				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+				<h3 itemprop="name">Shooting photo</h3>
+				<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
-			<div class="service__price">
-				<h4>350€/demi journée</h4>
+			<div class="service__price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+				<h4><span itemprop="price">350</span><span itemprop="priceCurrency" content="EUR">€</span>/demi journée</h4>
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
 		</div>
-		<div class="service">
+		<div class="service" itemscope itemtype="https://schema.org/Service">
 			<div class="service__description">
-				<h3>Retouches</h3>
-				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+				<h3 itemprop="name">Retouches</h3>
+				<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
-			<div class="service__price">
-				<h4>50€/photo</h4>
+			<div class="service__price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+				<h4><span itemprop="price">50</span><span itemprop="priceCurrency" content="EUR">€</span>/photo</h4>
 				<span>2 AR par photo</span>
 			</div>
 		</div>
-		<div class="service">
+		<div class="service" itemscope itemtype="https://schema.org/Service">
 			<div class="service__description">
-				<h3>Album photos</h3>
-				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+				<h3 itemprop="name">Album photos</h3>
+				<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
-			<div class="service__price">
-				<h4>400€ album A4</h4>
+			<div class="service__price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+				<h4><span itemprop="price">400</span><span itemprop="priceCurrency" content="EUR">€</span>album A4</h4>
 				<span>30 pages recto/verso</span>
 			</div>
 		</div>
